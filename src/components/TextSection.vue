@@ -1,6 +1,6 @@
 <template>
     <section class="textImage">
-        <img :src="require(`@/assets/images/${image}`)" alt="computer" class="textImages"/>
+        <img :src="require(`@/assets/images/${image}`)" class="textImages"/>
         <h1>{{ rubrik }}</h1>
         <p> The standard Lorem Ipsum passage, used since the 1500s
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
