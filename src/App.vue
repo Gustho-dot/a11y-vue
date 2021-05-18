@@ -1,24 +1,27 @@
 <template>
   <div id="app">
-     <section class="nav-section"> 
-       <img class="logo" src="./assets/images/logo.png" alt="logo" />
-       <nav class="nav">
-         <ul>
-           <li>
-             <router-link to="/">Home</router-link> 
-           </li>
-           <li>
-             <router-link to="/about">About</router-link> 
-           </li>
-           <li>
-            <router-link to="/contact">Contact</router-link>
-           </li>
-         </ul>
-       </nav>
-       </section>
+     <header-component />
     <router-view/>
+    <footer-component />
   </div>
 </template>
+
+<script>
+  import HeaderComponent from './components/HeaderComponent.vue';
+  import FooterComponent from './components/FooterComponent.vue';
+
+
+
+export default {
+  name: 'App',
+  components: {
+    HeaderComponent,
+    FooterComponent
+   
+  }
+}
+
+</script>
 
 <style>
 #app {
