@@ -25,14 +25,6 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#app {
   width: 80vw;
   margin: 0 auto;
 }
@@ -69,5 +61,46 @@ height: 5em;
 }
 h5, h6 {
  font-size: 1.2em;
+}
+
+.content-wrapper{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2em; 
+}
+.textImages {
+height: 20em;
+width: 100%;
+border-radius: 50%;
+border: 1px solid black;
+}
+.textImage {
+padding: 2rem;
+width: 23em;
+}
+
+.inputWrapper {
+  background-color: beige;
+  border-radius: 2%;
+  box-shadow: 0px 1px 20px 01px #000000;
+  width: 40%;
+  padding: 1em;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+} 
+.inputSection {
+ display: flex;
+ flex-direction: column;
+ width: 50%;   
+}
+.submitButton {
+ width: 50%;
+ padding: 0.5em;
+ background-color: white; 
+ border: 1px solid black; 
+ border-radius: 10%;
 }
 </style>

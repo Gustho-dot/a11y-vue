@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="content-wrapper">
    <text-section rubrik="Rubrik 1" image="computer.png" />
    <text-section rubrik="Rubrik 2" image="eagle.png" />
    <text-section rubrik="Rubrik 3" image="tree.png" />
