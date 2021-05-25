@@ -1,6 +1,6 @@
 <template>
   <section class="nav-section"> 
-       <img class="logo" src="../assets/images/logo.png" alt="logo" />
+       <img class="logo" src="../assets/images/logo.png"/>
        <nav class="nav">
          <ul>
            <li>

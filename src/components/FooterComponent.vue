@@ -10,9 +10,9 @@
             <h6>All images are from: LogoMakr.com</h6>
             <div class="socialMedia">
                 <h6>Follow us on:</h6>
-                <img src="../assets/images/facebook.png" alt="facebook" class="mediaImage" />
-                <img src="../assets/images/twitter.png" alt="twitter" class="mediaImage" />
-                <img src="../assets/images/facebook.png" alt="instagram" class="mediaImage" />
+                <img src="../assets/images/facebook.png" class="mediaImage" />
+                <img src="../assets/images/twitter.png" class="mediaImage" />
+                <img src="../assets/images/facebook.png" class="mediaImage" />
             </div>
         </section>
 </template>
